@@ -1,0 +1,24 @@
+{
+    "master":{
+        "sql": {
+            "db":"DataBase.db",
+            "table_name":"partitions" 
+        },
+        
+        "network":{
+            "ipv4":"127.0.0.1",
+            "port":5000
+        },
+
+        "parameters":{
+            "partition_size":1500000000,
+            "max_partition_submit": 30000,
+            "solutions_file_path": "Solutions.txt"
+        }
+    },
+    "client":{
+        "network":{
+            "port":5001
+        }
+    }
+}
